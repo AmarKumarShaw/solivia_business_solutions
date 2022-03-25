@@ -1,0 +1,17 @@
+.testimonial{
+    margin:2rem 0 2rem 0;
+}
+.testimonial-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:2rem;
+    padding-top: 4rem;
+    
+}
+
+.testimonial-review-img{
+    height: 300px;
+    border-radius: 40px 0;
+}

@@ -1,0 +1,41 @@
+.contact-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-head{
+    padding-bottom: 0rem;
+    margin-bottom: -4rem;
+}
+.contact-us-img{
+    height: 550px;
+    object-fit: cover;
+}
+
+
+.contact-section-right{
+    text-align: start;
+    max-width: 50%;
+}
+.contact-section-right h1{
+    color:#3CC68A;
+}
+
+.btn-blue{
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    color: #0E76A8;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid #0E76A8;
+    outline: none;
+    cursor: pointer;
+    background-color: #fff;
+    margin-left: 1rem;
+  }
+  .btn-blue:hover {
+    background-color: #0E76A8;
+    transition: 0.4s ease-in-out;
+    color: #fff;
+  }
+  
