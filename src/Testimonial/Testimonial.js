@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade"
 
 const Testimonial = () => {
   return (
-      <div className='testimonial'>
+      <div className='testimonial' id="testimonials">
     <Fade top >
         <div className="testimonial-head service-head">
             <p>TESTIMONIAL</p>

@@ -24,7 +24,11 @@ const About = () => {
                     <h2>Hi I'm</h2>
                     <h1>Rashi Chakaraborty</h1>
                     <h2>Your Social Media Manager </h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam amet atque ipsa sapiente possimus repellat, ut veniam ex consequuntur perspiciatis facilis laboriosam accusantium eum, minus natus excepturi delectus quis? Mollitia temporibus impedit ipsam saepe.</p>
+                    {/* <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam amet atque ipsa sapiente possimus repellat, ut veniam ex consequuntur perspiciatis facilis laboriosam accusantium eum, minus natus excepturi delectus quis? Mollitia temporibus impedit ipsam saepe.</p> */}
+                    <p className='text-gray'>I am Rashi, a freelance content designer and social media manager with specialty in providing deep-researched high-quality content for your impactful online presence.
+
+<br /> <br /> "The right set of words can win people and the world "
+</p>
             </div>
           </Fade>
         </div>

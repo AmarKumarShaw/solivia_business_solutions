@@ -1,7 +1,7 @@
 import React from 'react';
 import "./landingpage.css";
-import Reveal from 'react-reveal/Reveal'; 
 import Fade from 'react-reveal/Fade'; 
+import {Link} from "react-scroll";
 
 const LandingPage = () => {
     return (
@@ -12,9 +12,9 @@ const LandingPage = () => {
                     <div className="hero-section-left">
                         <div className='hero-section-left-data'>
                             <h1>A Creative way to grow your Exciting Business ideas</h1>
-                            <p className ="text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit <br /> Sapiente ullam optio laborum voluptate molestiae aspernatur totam libero <br /> tempora consequuntur suscipit veritatis?</p>
+                            <p className ="text-gray">A Social Media Manager is responsible for overseeing a company's interactions with the public by implementing social media platforms' content strategies.</p>
                         </div>
-                        <button className="sponsor btn-green btn-curve">Let's Explore</button>
+                        <Link to="service" smooth={true} ><button className="sponsor btn-green btn-curve">Let's Explore</button></Link>
                     </div>
         </Fade>
                     <Fade right >

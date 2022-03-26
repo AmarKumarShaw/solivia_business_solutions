@@ -21,7 +21,7 @@ const Contact = () => {
             <Fade right>
                 <div className="contact-section-right">
                     <h1>Feel Free to Reach Out </h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, soluta. Placeat aspernatur ratione, hic aliquid mollitia nemo. Odio suscipit sunt dolores rerum cupiditate, maxime unde error repudiandae? Necessitatibus corrupti officia, aliquam nisi dolor ad.</p>
+                    <p className='text-gray'>If you have any questions, please feel free to reach out. <br /> We will provide you with a fast response as soon...</p>
                 <div className="contact-btn">
                         <Tada forever>
                             <a className="btn-green" href="mailto:chakrabortyrashi2@gmail.com">Email Us</a>

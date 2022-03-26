@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade"
 
 const Review = () => {
   return (
-    <div className='review'>
+    <div className='review' id="support">
     {/* <div className="review-head service-head">
         <p>TESTIMONIAL</p>
         <h1>Our Happy Clients</h1>
@@ -14,7 +14,8 @@ const Review = () => {
             <div className="review-left">
                 <p>24 hours customer support</p>
                 <h1>Customer support is our main priority with their hundred percent satisfaction.</h1>
-                <p>Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.</p>
+                {/* <p>Get your content delivered with social media that led potential customer in helping business to grow & expand rapidly</p> */}
+                <p className='text-gray'>From designing content to social media management I have a one stop solution for you.</p>
             </div>
         </Fade>
             <Fade right> 
