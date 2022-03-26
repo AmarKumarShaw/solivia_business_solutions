@@ -32,6 +32,26 @@
     
 }
 
-.about-right h2{
+
+/*=================================MEDIA QUERIES================================= */
+@media screen and (max-width:768px){
+    .about{
+        padding:1rem;
+    }
+    
+    .about-left img{
+
+        height: 250px;
+    }
+    .about-right{
+        padding:1rem;
+        max-width:100%;
+       text-align: center;
+    }
+    .about-right h1{
+        font-size:2rem;
+        
+    }
+    
     
 }

@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .contact-head{
     padding-bottom: 0rem;
@@ -38,4 +39,24 @@
     transition: 0.4s ease-in-out;
     color: #fff;
   }
-  
+  .contact-btn{
+    padding-top: 2rem;
+  }
+
+  /*=================================MEDIA QUERIES================================= */
+@media screen and (max-width:768px){
+    
+    .contact-section-right{
+        max-width: 100%;
+        text-align: center;
+    }
+    .contact-section-right h1{
+        font-size: 1.5rem;
+    }
+    .contact-us-img{
+        height:300px;
+    }
+    .contact-btn{
+        padding: 1rem;
+    }
+}

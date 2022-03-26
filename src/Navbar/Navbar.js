@@ -1,9 +1,5 @@
 import React from 'react';
 import "./navbar.css";
-import {Link} from "react-scroll"
-
-
-
 
 const Navbar = () => {
   return (
@@ -23,7 +19,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="navbar-right">
-            <button className='btn-green '>Email Us</button>
+            <a href="mailto:chakrabortyrashi2@gmail.com" className='btn-green btn-mail-curve'>Mail Us</a>
           </div>
     </div>
   )

@@ -15,7 +15,7 @@ const About = () => {
       <div className="about-section">
           <Fade left>
             <div className="about-left">
-          {/* <img src="./images/green-blob.svg" alt="" /> */}
+        
           <img className='personal-img' src="./images/green-bgsc.png" alt="" />
             </div>
           </Fade>

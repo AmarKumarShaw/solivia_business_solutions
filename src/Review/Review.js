@@ -19,7 +19,7 @@ const Review = () => {
         </Fade>
             <Fade right> 
                 <div className='review-right'>
-                    <div className="review-right-img">
+                  
                         {/* <img className='review-img-1' src="./images/testm-1-f.png" alt="" /> */}
                         {/* <img className='review-img-2' src="./images/testm-2-f.png" alt="" />
                         <h3>Relationship Coach</h3>
@@ -32,7 +32,7 @@ const Review = () => {
                         </div> */}
                         <img className='support' src="./images/support.png" alt="" />
                         {/* <img className='review-img-3' src="./images/testm-3-f.png" alt="" /> */}
-                    </div>
+                    
                 </div>
             </Fade>
     </div>

@@ -11,7 +11,6 @@ const Testimonial = () => {
             <h1>Our Happy Clients</h1>
         </div>
         </Fade>
-       
             <div className="testimonial-section">
            
                 <div className="testimonial-review">

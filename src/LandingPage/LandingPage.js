@@ -19,9 +19,9 @@ const LandingPage = () => {
         </Fade>
                     <Fade right >
                         <div className="hero-section-right">
-                            <div >
+                           
                             <img className='img-round' src="./images/illustration.png" alt="" />
-                            </div>
+                         
                         </div>
                     </Fade>
                     </div>

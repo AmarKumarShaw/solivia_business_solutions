@@ -24,8 +24,8 @@ const Contact = () => {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, soluta. Placeat aspernatur ratione, hic aliquid mollitia nemo. Odio suscipit sunt dolores rerum cupiditate, maxime unde error repudiandae? Necessitatibus corrupti officia, aliquam nisi dolor ad.</p>
                 <div className="contact-btn">
                         <Tada forever>
-                            <button className='btn-green'>Email Us</button>
-                            <button className='btn-blue'>LinkedIn</button>
+                            <a className="btn-green" href="mailto:chakrabortyrashi2@gmail.com">Email Us</a>
+                            <a href="https://www.linkedin.com/in/rashi-chakraborty-25a463216/" className="btn-blue">LinkedIn</a>
                         </Tada>
                 </div>
                 </div>
