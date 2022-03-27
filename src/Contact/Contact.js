@@ -15,7 +15,7 @@ const Contact = () => {
         <div className="contact-section">
             <Fade left>
                 <div className="contact-section-left">
-                    <img className="contact-us-img" src="./images/contact-us.svg" alt="" />
+                    <img className="contact-us-img" src="./images/contact_img.png" alt="" />
                 </div>
             </Fade>
             <Fade right>
@@ -25,7 +25,7 @@ const Contact = () => {
                 <div className="contact-btn">
                         <Tada forever>
                             <a className="btn-green" href="mailto:chakrabortyrashi2@gmail.com">Email Us</a>
-                            <a href="https://www.linkedin.com/in/rashi-chakraborty-25a463216/" className="btn-blue">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/m-ayushi-3371b0197/" className="btn-blue">LinkedIn</a>
                         </Tada>
                 </div>
                 </div>

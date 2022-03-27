@@ -12,13 +12,13 @@
     display: flex;
 }
 .navbar-left img{
-    object-fit: contain;
+    height: 70px;
 }
 .navbar-left p{
     font-weight: bold;
     font-size: 1.5rem;
     font-family: "DM Sans", sans-serif;
-    color:#3CC68A;
+    color:#396afc;
 }
 
 .nav-links{

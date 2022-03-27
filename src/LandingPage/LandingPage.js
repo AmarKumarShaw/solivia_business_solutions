@@ -11,8 +11,8 @@ const LandingPage = () => {
         <Fade left>
                     <div className="hero-section-left">
                         <div className='hero-section-left-data'>
-                            <h1>A Creative way to grow your Exciting Business ideas</h1>
-                            <p className ="text-gray">A Social Media Manager is responsible for overseeing a company's interactions with the public by implementing social media platforms' content strategies.</p>
+                            <h1>A Creative way to grow your Exciting Business Model</h1>
+                            <p className ="text-gray">While marketing is used to promote your product or service, branding is used to actively shape your brand and who you are.</p>
                         </div>
                         <Link to="service" smooth={true} ><button className="sponsor btn-green btn-curve">Let's Explore</button></Link>
                     </div>
@@ -20,7 +20,7 @@ const LandingPage = () => {
                     <Fade right >
                         <div className="hero-section-right">
                            
-                            <img className='img-round' src="./images/illustration.png" alt="" />
+                            <img className='img-round' src="./images/landing_page_img.png" alt="" />
                          
                         </div>
                     </Fade>
