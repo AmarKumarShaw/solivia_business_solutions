@@ -5,7 +5,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <div className='footer'>
-        <p>Copywright © 2022 All Rights Reserved || Designed and Developed by  <a href="https://www.linkedin.com/in/amar-kumar-s-225290143/">AS Solutions</a></p>
+        <p>Copywright © 2022 All Rights Reserved || Designed and Developed by <b>The Expert Solutions Pvt. Ltd.</b></p>
     </div>
   )
 }

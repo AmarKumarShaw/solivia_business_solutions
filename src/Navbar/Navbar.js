@@ -6,8 +6,8 @@ const Navbar = () => {
   return (
     <div className='navbar'>
           <div className="navbar-left">
-            <img className='nav-logo' src="./images/girle.png" alt="" />
-            <p>Ayushi M</p>
+            <img className='nav-logo' src="./images/girle.jpg" alt="" />
+            <p>Star Content Solutions</p>
           </div>
           <div className="navbar-center">
             <ul className="nav-link">
@@ -32,7 +32,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="navbar-right">
-            <a href="mailto:chakrabortyrashi2@gmail.com" className='btn-green btn-mail-curve'>Mail Us</a>
+            <a href="mailto:starcontentsolutions@gmail.com" className='btn-green btn-mail-curve'>Mail Us</a>
           </div>
     </div>
   )

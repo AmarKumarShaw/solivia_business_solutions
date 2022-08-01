@@ -23,10 +23,11 @@ const Contact = () => {
                     <h1>Feel Free to Reach Out </h1>
                     <p className='text-gray'>If you have any questions, please feel free to reach out. <br /> We will provide you with a fast response as soon...</p>
                 <div className="contact-btn">
-                        <Tada forever>
-                            <a className="btn-green" href="mailto:chakrabortyrashi2@gmail.com">Email Us</a>
-                            <a href="https://www.linkedin.com/in/m-ayushi-3371b0197/" className="btn-blue">LinkedIn</a>
-                        </Tada>
+                        <Fade left>
+                            <a className="btn-blue btn-yellow-email" href="mailto:starcontentsolutions@gmail.com">Email Us</a>
+                            <a href="https://www.linkedin.com/in/star-content-solutions-834177247" className="btn-blue">LinkedIn</a>
+                            <a href="https://www.facebook.com/Star-Content-Solutions-100362146115652" className="btn-blue-fb">Facebook</a>
+                        </Fade>
                 </div>
                 </div>
             </Fade>

@@ -6,15 +6,16 @@ import Review from './../Review/Review';
 import Contact from './../Contact/Contact';
 import LightSpeed from 'react-reveal/LightSpeed'; 
 import Testimonial from './../Testimonial/Testimonial';
-
+import Sample from "./../Sample/Sample"
 
 const InnerLayout = () => {
   return (
     <div  className='inner-layout'>
       
         <Services />
-  
+      <Sample/>
         <About />
+
         <Review />
         <Testimonial />
         <Contact />

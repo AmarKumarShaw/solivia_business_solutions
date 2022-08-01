@@ -16,16 +16,16 @@ const About = () => {
           <Fade left>
             <div className="about-left">
         
-          <img className='personal-img' src="./images/green-bgsc.png" alt="" />
+          <img className='personal-img' src="./images/green-bgsc.jpeg" alt="" />
             </div>
           </Fade>
           <Fade right>
             <div className="about-right">
                     <h2>Hi I'm</h2>
-                    <h1>Ayushi M</h1>
-                    <h2>Your Social Media Manager </h2>
+                    <h1>Khushi Mondal</h1>
+                    <h2>Founder at Star Content Solution </h2>
                     {/* <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam amet atque ipsa sapiente possimus repellat, ut veniam ex consequuntur perspiciatis facilis laboriosam accusantium eum, minus natus excepturi delectus quis? Mollitia temporibus impedit ipsam saepe.</p> */}
-                    <p className='text-gray'>I am Rashi, a freelance content designer and social media manager with specialty in providing deep-researched high-quality content for your impactful online presence.
+                    <p className='text-gray'>I am Khushi,owner and founder at Star Content Solution, with over three years of experience in content writing specialized in academic content writing,blog writing and so on
 
 <br /> <br /> "The right set of words can win people and the world "
 </p>

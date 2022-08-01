@@ -44,15 +44,15 @@
   color: #fff;
   font-weight: bold;
   border-radius: 5px;
-  border: 2px solid #396afc;
+  border: 2px solid #FFC059;
   outline: none;
   cursor: pointer;
-  background-color: #396afc;
+  background-color:#FFC059;
 }
 .btn-green:hover {
   background-color: #fff;
   transition: 0.4s ease-in-out;
-  color: #396afc;
+  color: #FFC059;
 }
 
 .btn-curve{
