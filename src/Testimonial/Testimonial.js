@@ -15,17 +15,57 @@ const Testimonial = () => {
            
                 <div className="testimonial-review">
                 <Fade left>
-                    <img className="testimonial-review-img" src="./images/cust-1.jpg" alt="" />
+                <div className="review_box">
+                    <p className="review_box_heading">
+                        Rohit Kumar 
+
+                    </p>
+                    <hr />
+                    <p className="review_box_comment">
+                         Whoever has done it <br /> It's a Good Report
+                    </p>
+                    <p className="review_star">
+                    ⭐⭐⭐⭐⭐
+                    </p>
+                </div>
                 </Fade>
                 </div>
                 <div className="testimonial-review">
                 <Fade bottom>
-                    <img className="testimonial-review-img" src="./images/cust-3.jpg" alt="" />
+                <div className="review_box">
+                    <p className="review_box_heading">
+                        Anamika 
+
+                    </p>
+                    <hr />
+                    <p className="review_box_comment">
+                    Broththe report is good, just some small changes the professor has asked to add brand onion diagram. You may find brand onion diagrams in a sample file of Kitkat. That's it the rest of the report is good <br /> It's a Good Report
+                    </p>
+                    <p className="review_star">
+                    ⭐⭐⭐⭐⭐
+                    </p>
+                </div>
+
                 </Fade>
                 </div>
                 <div className="testimonial-review">
                 <Fade right>
-                    <img className="testimonial-review-img" src="./images/cust-2.jpg" alt="" />
+                <div className="review_box">
+                    <p className="review_box_heading">
+                        Nidhi kumari
+
+                    </p>
+                    <hr />
+                    <p className="review_box_comment">
+                   
+
+Hope for the best Good job. Looking for a long term collab 
+
+                    </p>
+                    <p className="review_star">
+                    ⭐⭐⭐⭐⭐
+                    </p>
+                </div>
                 </Fade>
                 </div>
             </div>

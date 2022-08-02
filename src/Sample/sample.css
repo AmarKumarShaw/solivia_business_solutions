@@ -1,61 +1,72 @@
-.sample_para,.sample_header{
-    text-align: center;
-}
-.sample_para{
-    color:#FFC059;
-    font-size: 1rem;
-}
-.sample_container{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-}
-.assignment_img{
-    height: 10rem;
 
+.sample-container{
+    margin-top: 8rem;
 }
-
-.sample_assignment_inner_container{
-    width: 100%;    
-    display: flex;
-
+.sample_para,
+.sample_header {
+  text-align: center;
+}
+.sample_para {
+  color: #ffc059;
+  font-size: 1rem;
+}
+.sample_container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.assignment_img {
+  height: 10rem;
 }
 
+.sample_assignment_inner_container {
+  width: 100%;
+  display: flex;
+}
 
-.sample_assignment{
-    text-align: center;
-    width: 30%;
+.sample_assignment {
+  text-align: center;
+  width: 30%;
 }
-.assignment_download_btn{
-    padding: 0.7rem 1.5rem;
-    font-size: 1rem;
-    font-weight: bold;
-    border-radius: 5px;
-    border: 2px solid #FFC059;
-    outline: none;
-    cursor: pointer;
-    margin-left: 1rem;
-    background-color: #FFC059;
-    color: #fff;
-    transition:0.3s ease-in-out;
+.assignment_download_btn {
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 2px solid #ffc059;
+  outline: none;
+  cursor: pointer;
+  margin-left: 1rem;
+  background-color: #ffc059;
+  color: #fff;
+  transition: 0.3s ease-in-out;
 }
-.assignment_download_btn:hover{
-    background-color: #fff;
-    color: #FFC059;    
+.assignment_download_btn:hover {
+  background-color: #fff;
+  color: #ffc059;
 }
-.sample_assignment{
-    margin: 1.5rem;
+.sample_assignment {
+  margin: 1.5rem;
 }
-a { color: inherit; }
+a {
+  color: inherit;
+}
 
 /* MEDIA QUERIES   */
 @media screen and (max-width: 600px) {
-    .sample_assignment_inner_container{
-        flex-direction: column;
-      
-    
-    }
-    .sample_assignment{
-        margin: 1.5rem;
-    }
-   }
-   
+  .sample_assignment_inner_container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .sample_assignment {
+    width: 100%;
+    margin: 0;
+    margin-top: 1rem;
+  }
+  .sample_asignment h3 {
+    font-size: 1rem;
+    width: 70%;
+  }
+  .assignment_img {
+    height: 5rem;
+  }
+}
