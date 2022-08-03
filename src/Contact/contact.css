@@ -1,86 +1,98 @@
-.contact-section{
+.contact-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contact-head {
+  padding-bottom: 0rem;
+  margin-bottom: -4rem;
+}
+.contact-us-img {
+  height: 550px;
+  object-fit: cover;
+}
+
+.contact-section-right {
+  text-align: start;
+  max-width: 50%;
+}
+.contact-section-right h1 {
+  color: #ffc059;
+}
+
+.btn-blue,
+.btn-blue-fb {
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  color: #0e76a8;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 2px solid #0e76a8;
+  outline: none;
+  cursor: pointer;
+  background-color: #fff;
+  margin-left: 1rem;
+  transition: 0.4s ease-in;
+}
+.btn-blue-fb {
+  color: #fff;
+  background: #0e76a8;
+}
+.btn-blue-fb:hover {
+  color: #0e76a8;
+  background: #fff;
+}
+.btn-gr-wp:hover {
+  color: #27ae60;
+  background: #fff;
+}
+
+.btn-gr-wp {
+  border: 1px solid #27ae60;
+  color: #fff;
+  background: #27ae60;
+}
+.btn-yellow-email {
+  color: #fff;
+  background: #ffc059;
+  border: #ffc059;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-blue:hover {
+  background-color: #0e76a8;
+  transition: 0.4s ease-in-out;
+  color: #fff;
+}
+.btn-yellow-email:hover {
+  color: #ffc059;
+  background: #fff;
+  border: 2px solid #ffc059;
+}
+.contact-btn {
+  padding-top: 2rem;
+}
+
+/*=================================MEDIA QUERIES================================= */
+@media screen and (max-width: 768px) {
+  .contact-section-right {
+    max-width: 100%;
+    text-align: center;
+  }
+  .contact-section-right h1 {
+    font-size: 1.5rem;
+  }
+  .contact-us-img {
+    height: 300px;
+    margin-top: 3rem;
+  }
+  .contact-btn {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
     flex-wrap: wrap;
-}
-.contact-head{
-    padding-bottom: 0rem;
-    margin-bottom: -4rem;
-}
-.contact-us-img{
-    height: 550px;
-    object-fit: cover;
-}
-
-
-.contact-section-right{
-    text-align: start;
-    max-width: 50%;
-}
-.contact-section-right h1{
-    color:#FFC059;
-}
-
-.btn-blue,.btn-blue-fb{
-    padding: 0.7rem 1.5rem;
-    font-size: 1rem;
-    color: #0E76A8;
-    font-weight: bold;
-    border-radius: 5px;
-    border: 2px solid #0E76A8;
-    outline: none;
-    cursor: pointer;
-    background-color: #fff;
-    margin-left: 1rem;
   }
-  .btn-blue-fb{
-    color:#fff;
-    background: #0E76A8;
+  .contact-btn a {
+    margin-top: 1rem;
   }
-  .btn-yellow-email{
-    color:#fff;
-    background: #FFC059;
-    border: #FFC059;
-    transition: 0.3s ease-in-out;
-  }
-  
-
-  .btn-blue:hover {
-    background-color: #0E76A8;
-    transition: 0.4s ease-in-out;
-    color: #fff;
-  }
-  .btn-yellow-email:hover{
-    color:#FFC059;
-    background: #fff;
-    border: 2px solid #FFC059;
-  }
-  .contact-btn{
-    padding-top: 2rem;
-  }
-
-  /*=================================MEDIA QUERIES================================= */
-@media screen and (max-width:768px){
-    
-    .contact-section-right{
-        max-width: 100%;
-        text-align: center;
-    }
-    .contact-section-right h1{
-        font-size: 1.5rem;
-    }
-    .contact-us-img{
-        height:300px;
-        margin-top:3rem;
-    }
-    .contact-btn{
-        
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    .contact-btn a{
-        margin-top: 1rem;
-    }
 }
