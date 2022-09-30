@@ -13,8 +13,8 @@ const Review = () => {
             <Fade left>
                 <div className="review-left">
                     <p>24 hours customer support</p>
-                    <h1>Customer support is our main priority with their hundred percent satisfaction.</h1>
-                    <p className="text-gray">Get your content delivered with social media that led potential customer in helping business to grow & expand rapidly</p>
+                    <h1  >Customer support is our main priority with their hundred percent satisfaction.</h1>
+                    <p className="text-gray">We believe that  customer service means delivering proactive and immediate support to customers anytime on the channel of their choice.</p>
                     {/* <p className='text-gray'>From designing content to social media management I have a one stop solution for you.</p> */}
                 </div>
             </Fade>
@@ -22,7 +22,7 @@ const Review = () => {
                 <div className='review-right'>
 
 
-                    <img className='support' src="./images/support_img.png" alt="" />
+                    <img className='support' src="./images/customer_satisfaction.png" alt="" />
 
                 </div>
             </Fade>

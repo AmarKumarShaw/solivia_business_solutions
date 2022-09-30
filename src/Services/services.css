@@ -1,4 +1,6 @@
-
+.service{
+    height: 100vh;
+}
 
 .service-list{
     /* display: grid;
@@ -18,7 +20,7 @@
 .service-head p{
     margin: 0;
     padding-bottom: .2rem;
-    color:#FFC059;
+    color:#8281f5;
 }
 .service-head h1{
     margin-top: 0;
@@ -39,6 +41,9 @@
 
 /*=================================MEDIA QUERIES================================= */
 @media screen and (max-width:768px){
+    .service{
+        height:auto;
+    }
     .service-head-sm{
         padding: 0;
         margin-top: 3rem;

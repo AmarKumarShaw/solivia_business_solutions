@@ -16,18 +16,18 @@ const About = () => {
         <Fade left>
           <div className="about-left">
 
-            <img className='personal-img' src="./images/khushi_remove_bg.png" alt="" />
+            <img className='personal-img' src="./images/Solivia_Laptop.png" alt="" />
           </div>
         </Fade>
         <Fade right>
-          <div className="about-right">
-            <h2>Hi I'm</h2>
-            <h1>Khushi Mondal</h1>
-            <h2>Founder at Star Content Solution </h2>
+          <div className="about-right"> 
+            <h2>Welcome To</h2>
+            <h1>Solivia Business Solutions Pvt. Ltd.</h1>
+            <h2>One Stop for all your Business Queries </h2>
             {/* <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam amet atque ipsa sapiente possimus repellat, ut veniam ex consequuntur perspiciatis facilis laboriosam accusantium eum, minus natus excepturi delectus quis? Mollitia temporibus impedit ipsam saepe.</p> */}
-            <p className='text-gray'>I am Khushi,owner and founder at Star Content Solution, with over three years of experience in content writing specialized in academic content writing,blog writing and so on
+            <p className='text-gray'>Solivia Business Solutions aims to help small and medium scale business to grow digitally and financially with the best quality service.
 
-              <br /> <br /> "The right set of words can win people and the world "
+              <br /> <br /> "Never give up on your Dreams"
             </p>
           </div>
         </Fade>

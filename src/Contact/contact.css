@@ -18,7 +18,7 @@
   max-width: 50%;
 }
 .contact-section-right h1 {
-  color: #ffc059;
+  color: #8281f5;
 }
 
 .btn-blue,
@@ -55,8 +55,8 @@
 }
 .btn-yellow-email {
   color: #fff;
-  background: #ffc059;
-  border: #ffc059;
+  background: #8281f5;
+  border: #8281f5;
   transition: 0.3s ease-in-out;
 }
 
@@ -66,9 +66,9 @@
   color: #fff;
 }
 .btn-yellow-email:hover {
-  color: #ffc059;
+  color: #8281f5;
   background: #fff;
-  border: 2px solid #ffc059;
+  border: 2px solid #8281f5;
 }
 .contact-btn {
   padding-top: 2rem;

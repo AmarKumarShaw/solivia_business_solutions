@@ -1,9 +1,10 @@
 .about{
     padding:4rem;
+    min-height: 100vh;
 }
 
 .about-head p{
-    color: #FFC059;
+    color: #8281f5;
     font-size:1.2rem;
 }
 
@@ -21,23 +22,20 @@
     height: 400px;
 }
 .about-right{
-    padding:2rem;
+
     max-width:50%;
     text-align: start;
 }
 
 .about-right h1{
     font-size:3rem;
-    color: #FFC059;
+    color: #8281f5;
 }
-
 
 .personal_img{
     border-radius:50%;
 }
-.about-left > img{
-    border-radius:50%;
-}
+
 
 /*=================================MEDIA QUERIES================================= */
 @media screen and (max-width:768px){

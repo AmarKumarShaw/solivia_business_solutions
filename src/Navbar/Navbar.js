@@ -6,13 +6,16 @@ const Navbar = () => {
   return (
     <div className='navbar'>
           <div className="navbar-left">
-            <img className='nav-logo' src="./images/girle.jpg" alt="" />
-            <p>Star Content Solutions</p>
+            <img className='nav-logo' src="./images/Final_Logo.webp" alt="Solivia Business Solutions Logo" />
+            <p>Solivia Business Solutions</p>
           </div>
           <div className="navbar-center">
             <ul className="nav-link">
             <Link to="home" smooth={true} >
                   <li className="nav-link">Home</li>
+                </Link>
+                <Link to="grow" smooth={true} >
+                <li className="nav-link">Growth</li>
                 </Link>
                 <Link to="service" smooth={true} >
                   <li className="nav-link">Services</li>
@@ -23,16 +26,13 @@ const Navbar = () => {
                 <Link to="support" smooth={true} >
                 <li className="nav-link">Support</li>
                 </Link>
-                <Link to="testimonials" smooth={true} >
-                <li className="nav-link">Testimonials</li>
-                </Link>
                 <Link to="contact" smooth={true} >
                 <li className="nav-link">Contact</li>
                 </Link>
             </ul>
           </div>
           <div className="navbar-right">
-            <a href="mailto:starcontentsolutions@gmail.com" className='btn-green btn-mail-curve'>Mail Us</a>
+            <a href="mailto:info@soliviabusinesssolutions.com " className='btn-green btn-mail-curve'>Mail Us</a>
           </div>
     </div>
   )

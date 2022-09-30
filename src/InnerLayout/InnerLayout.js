@@ -4,20 +4,17 @@ import Services from './../Services/Services';
 import About from './../About/About';
 import Review from './../Review/Review';
 import Contact from './../Contact/Contact';
-import LightSpeed from 'react-reveal/LightSpeed'; 
-import Testimonial from './../Testimonial/Testimonial';
-import Sample from "./../Sample/Sample"
+import Grow from '../Grow/Grow';
 
 const InnerLayout = () => {
   return (
     <div  className='inner-layout'>
-      
+
+        <Grow/>
         <Services />
-      <Sample/>
         <About />
 
         <Review />
-        <Testimonial />
         <Contact />
     </div>
   )

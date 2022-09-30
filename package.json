@@ -1,5 +1,6 @@
 {
-  "name": "portfolio_website",
+  "name":"Solivia-Business-Solutions",
+  "homepage":"https://soliviabusinesssolutions.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

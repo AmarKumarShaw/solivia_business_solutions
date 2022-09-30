@@ -5,20 +5,24 @@
     justify-content: space-around;
     align-items: center;
     box-shadow: 0px 5px 5px 0px rgb(179, 175, 175);
+    background-color: linear-gradient(to right, #396afc, #2948ff);
     /* z-index:1!important */
 }
 
 .navbar-left{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .navbar-left img{
-    height: 70px;
+    height: 60px;
 }
 .navbar-left p{
     font-weight: bold;
     font-size: 1.5rem;
     font-family: "DM Sans", sans-serif;
-    color:#FFC059;
+    color:#8281f5;
+    padding-left: 0.2rem;
 
 }
 
@@ -41,6 +45,10 @@
 @media screen and (max-width:768px){
     .navbar-center,.navbar-right{
         display:none;
+    }
+    .navbar-left p{
+        font-size: 1.2rem;
+        
     }
     
 }

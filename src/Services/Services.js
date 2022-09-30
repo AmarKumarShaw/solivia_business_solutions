@@ -15,33 +15,33 @@ const Services = () => {
       <div className="service-list">
         <Fade left>
           <div className="service-categories">
-            <img src="./images/download.svg" alt="" />
-            <h4>Technical Writing</h4>
-            <p>Technical writing is writing or drafting technical communication used in technical fields.</p>
+            <img src="./images/website_development.svg" alt="" />
+            <h4>Website Development</h4>
+            <p>Web development is the work involved in developing a website for the Internet or an intranet.</p>
           </div>
         </Fade>
 
         <Fade bottom>
           <div className="service-categories">
-            <img src="./images/message.svg" alt="" />
-            <h4>Content Planning & Creation</h4>
-            <p>A content plan determines the content you hope to create and sets expectations for how it should be created.</p>
+            <img src="./images/graphic_designing.svg" alt="" />
+            <h4>Graphic Designing</h4>
+            <p>Graphic design is a profession, applied art and academic discipline.</p>
           </div>
         </Fade>
 
         <Fade top>
           <div className="service-categories">
-            <img src="./images/crown.svg" alt="" />
-            <h4>Assignment Help</h4>
-            <p>Assignment Help Services provides services to academic students studying in different parts through the internet.</p>
+            <img src="./images/google_review.svg" alt="" />
+            <h4>Google Business Reviews</h4>
+            <p>Google reviews provide useful information and help your business stand out.</p>
           </div>
         </Fade>
 
         <Fade right>
           <div className="service-categories">
-            <img src="./images/partner.svg" alt="" />
-            <h4>Content Strategy </h4>
-            <p>A content strategy is a plan in which you use content to achieve your business goals.</p>
+            <img src="./images/tax.svg" alt="" />
+            <h4>GST & ITR Filing</h4>
+            <p>GST return is a form that a taxpayer registered under the Goods and Services Tax (GST) law must file for every GSTIN that he is registered.</p>
           </div>
         </Fade>
       </div>

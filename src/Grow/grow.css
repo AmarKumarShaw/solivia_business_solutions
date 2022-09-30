@@ -1,0 +1,47 @@
+.grow{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.grow-right{
+    width: 40%;
+}
+.grow-left img{
+    max-width:100%;
+    height:auto;
+    object-fit: contain;
+}
+
+.grow-right h2{
+    font-size: 3rem;
+}
+
+.grow-right p{
+    color: gray;
+    width: 100%;
+}
+
+/*=================================MEDIA QUERIES================================= */
+@media screen and (max-width:768px){
+    .grow{
+        text-align: center;
+        justify-content: center;
+        height: auto;
+
+    }
+    .grow-left{
+        height: 80%;
+    }
+
+    .grow-right{
+        width: 100%;
+    }
+    .grow-right h2{
+        font-size: 1.8rem;
+    }
+
+
+}
+
